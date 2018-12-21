@@ -1,5 +1,5 @@
-# LanYunGeZhu.github.io
-<!DOCTYPE html>
+# 蓝云阁主的博客
+
 <html>
 <head>
 <meta charset="UTF-8">
