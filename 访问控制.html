@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>基础-访问控制css</title>
+	</head>
+	<body>
+		<div id="box"> 诡异的盒子</div>
+		
+		<script>
+			
+			//查找到div 然后进行控制它的css
+			//js修改的是行内式css，它的优先级是最高的
+			document.getElementById('box').style.background = 'red';
+			document.getElementById('box').style.width = '200px';
+			document.getElementById('box').style.height = '200px';
+			document.getElementById('box').style.marginTop = '200px';
+			//优化版
+			var oBox = document.getElementById('box');
+			oBox.style.background = 'dodgerblue';
+			oBox.style.width = '300px';
+			
+			console.log(oBox);
+			
+			
+		</script>
+	</body>
+</html>
